@@ -13,7 +13,6 @@ namespace leak3
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            //test changes
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
