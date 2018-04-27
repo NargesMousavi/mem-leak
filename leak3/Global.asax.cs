@@ -11,6 +11,7 @@ namespace leak3
     {
         protected void Application_Start()
         {
+        // add comment
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
