@@ -8,7 +8,7 @@ namespace mem_leak
     {
         public void Configuration(IAppBuilder app)
         {
-            // comment to test head
+            // test origin branch
             ConfigureAuth(app);
         }
     }
