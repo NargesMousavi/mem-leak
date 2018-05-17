@@ -2,6 +2,11 @@
 @{
     ViewBag.Title = "Index";
 }
+<div>
+    <h2>Index</h2>
+    @{Session["mykey"] = "test"; }
+    <p>IsNewSession @Session.IsNewSession</p>
+    <p>SessionID @Session.SessionID</p>
 
-<h2>Index</h2>
+</div>
 
