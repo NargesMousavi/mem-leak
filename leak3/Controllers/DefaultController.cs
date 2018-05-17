@@ -12,7 +12,7 @@ namespace leak3.Controllers
         // GET: Default
         public ActionResult Index()
         {
-            Marshal.AllocHGlobal(1000000000);
+            //Marshal.AllocHGlobal(1000000000);
             return View();
         }
         private void timerUnManaged_Tick(object sender, EventArgs e)
