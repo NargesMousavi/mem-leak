@@ -15,9 +15,6 @@ namespace leak3.Controllers
             //Marshal.AllocHGlobal(1000000000);
             return View();
         }
-        private void timerUnManaged_Tick(object sender, EventArgs e)
-        {
-           
-        }
+       
     }
 }
